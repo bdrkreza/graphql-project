@@ -17,6 +17,9 @@ const Mutation = {
     animals.splice(index, 1);
     return true;
   },
+  updateAnimal: (parent, {id}, {animals}) => {
+
+  },
 };
 
 module.exports = Mutation;

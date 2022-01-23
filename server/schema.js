@@ -49,6 +49,7 @@ const typeDefs = gql`
 
   type Mutation {
     addAnimal(newAnimal: AnimalInput!): Animal
+    updateAnimal(id: ID!, updateAnimal: AnimalInput!): Animal
     removeAnimal(id: ID!): Boolean
   }
 `;
