@@ -22,7 +22,7 @@ function MainHero() {
    if (error) {
     return <div className="text-danger text-center">Error......</div>;
    }
-console.log(data);
+
   return (
     <div className="MainHero">
       <Container>
